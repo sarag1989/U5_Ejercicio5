@@ -7,6 +7,8 @@ lineas */
 let miNombre = prompt("Introduzca su nombre");
 if (miNombre === "Pepito Grillo"){
   alert("saludos, SR. Grillo");
-}else {
+}
+while (miNombre !== "Pepito Grillo") {
   alert("Usted no es el usuario deseado");
+  miNombre = prompt("Vuelva a introducir su nombre");
 }
